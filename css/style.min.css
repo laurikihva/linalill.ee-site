@@ -1,7 +1,7 @@
 /* CSS file which sets my own style on the page */
 
 .front {
-  background: url("../img/back.jpg") no-repeat fixed;
+  background: url("../img/back2.jpg") no-repeat fixed;
   background-size: cover;
   display: flex;
   align-items: center;
