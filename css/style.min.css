@@ -1,5 +1,15 @@
+/* CSS file which sets my own style on the page */
+
 .front {
-  background: url("../img/back.jpg") no-repeat;
+  background: url("../img/back.jpg") no-repeat fixed;
   background-size: cover;
-  background-color: #000;
+}
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.8);
+  border-color: #000;
+}
+
+nav {
+  color: #fff;
 }
