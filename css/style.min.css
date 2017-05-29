@@ -3,6 +3,9 @@
 .front {
   background: url("../img/back.jpg") no-repeat fixed;
   background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .navbar {
@@ -10,6 +13,12 @@
   border-color: #000;
 }
 
-nav {
+.page-scroll {
   color: #fff;
+}
+
+.col-lg-12 img {
+  width: 318px;
+  height: 81px;
+  /*margin-top: 300px;*/
 }
