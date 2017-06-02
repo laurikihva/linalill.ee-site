@@ -2289,6 +2289,11 @@
 				#header.alt nav ul li.active > a, #header.alt nav ul li:hover > a {
 					border: solid 1px;
 				}
+				
+		.facts {
+			background-color: rgb(67,67,67);
+			color: #fff;
+		}
 
 /* Dropotron */
 
