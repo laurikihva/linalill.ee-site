@@ -429,12 +429,19 @@
     }
   };
 
+  // disabling body scroll on image click
+  $('.image').click(function() {
+    $('body').addClass('disable-scroll');
+  })
+
   // Closing time. :-(
   Lightbox.prototype.end = function() {
     this.disableKeyboardNav();
     $(window).off('resize', this.sizeOverlay);
     this.$lightbox.fadeOut(this.options.fadeDuration);
     this.$overlay.fadeOut(this.options.fadeDuration);
+    // enabling body scroll
+    $('body').removeClass('disable-scroll');
     $('select, object, embed').css({
       visibility: 'visible'
     });

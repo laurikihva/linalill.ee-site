@@ -1802,6 +1802,18 @@
 				display: block;
 				width: 100%;
 			}
+	.image__type-2 {
+		max-height: 300px;
+		max-width: 169px;
+		margin: 0 auto;
+	}
+	
+	@media (min-width: 500px) {
+		.image__type-2 {
+			max-height: 500px;
+			max-width: 281px;
+		}
+	}
 
 /* Icon */
 
@@ -2185,7 +2197,7 @@
 		position: fixed;
 		top: 0;
 		width: 100%;
-		z-index: 10000;
+		z-index: 1;
 	}
 
 		#header h1 {
@@ -2854,7 +2866,7 @@
 				position: fixed;
 				top: 0;
 				width: 100%;
-				z-index: 10001;
+				z-index: 2;
 			}
 
 				#navButton .toggle {
@@ -2923,7 +2935,7 @@
 				position: fixed;
 				top: 0;
 				width: 275px;
-				z-index: 10002;
+				z-index: 3;
 				background: #1c2021;
 				color: #fff;
 				font-size: 0.8em;
@@ -2997,6 +3009,11 @@
 				transform: translateX(0);
 			}
 
+	}
+
+	/* Helper */
+	.disable-scroll {
+		overflow: hidden;
 	}
 
 /* Mobile */
